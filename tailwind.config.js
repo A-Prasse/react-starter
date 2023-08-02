@@ -2,7 +2,12 @@
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        bpiBlau: "#00305d",
+        bpiOrange: "#EF7D00",
+      },
+    },
   },
   plugins: [require("daisyui")],
 };
